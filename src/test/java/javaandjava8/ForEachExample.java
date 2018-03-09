@@ -12,7 +12,6 @@ class ForEachExample {
 		al.add("Akshay");
 		al.add("Swapnil");
 		al.add("Santosh");
-		for (String s : al)
-			System.out.println(s);
+		al.forEach((names)->System.out.println(names));
 	}
 }
