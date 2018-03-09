@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class LamdaExpressionToFillPopup {
 
-	WebDriver driver;
+	ChromeDriver driver;
 	
 	@BeforeClass
 	public void setup()
