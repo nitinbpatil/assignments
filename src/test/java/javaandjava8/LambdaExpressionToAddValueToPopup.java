@@ -29,13 +29,6 @@ public class LambdaExpressionToAddValueToPopup {
 	@Test
 	public void fillPopup() throws InterruptedException {
 
-		// driver.get("http://toolsqa.com/handling-alerts-using-selenium-webdriver/");
-		// driver.findElement(By.xpath("//button[text()='Prompt Pop up']")).click();
-
-		//driver.get("file:///F:/Nitin Patil/java-oxygen/eclipse-workspace/Grooming_Assignments/OtherFiles/prompt.html");
-		//Thread.sleep(2000);
-		//driver.findElement(By.xpath("//button[@onclick='promptFunction()']")).click();
-
 		driver.get("https://sunilpatro1985.github.io/demo/alerts.html");
 		driver.findElement(By.id("prompt")).click();
 
