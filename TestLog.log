@@ -1473,3 +1473,16 @@
 2018-03-16 19:13:26,478 INFO  [main] (ScreenshotUtility.java:43) - ScreenShotOnPass: Yes
 2018-03-16 19:13:26,479 INFO  [main] (ScreenshotUtility.java:72) - Inside captureScreenShot() method...
 2018-03-16 19:13:26,754 INFO  [main] (ScreenshotUtility.java:89) - destDir: src/test/java/screenshots/Success
+2018-03-16 19:42:44,681 INFO  [main] (ConfigProperties.java:23) - inside loadProperties() method.. loading config file.
+2018-03-16 19:42:51,930 INFO  [main] (ScreenshotUtility.java:51) - Inside onTestFailure() method...
+2018-03-16 19:42:51,930 INFO  [main] (ConfigProperties.java:36) - inside ConfigProperties->getProperty() called for value ScreenShotOnFail
+2018-03-16 19:42:51,930 INFO  [main] (ConfigProperties.java:36) - inside ConfigProperties->getProperty() called for value ScreenShotOnFail
+2018-03-16 19:42:51,930 INFO  [main] (ScreenshotUtility.java:53) - ScreenShotOnFail: Yes
+2018-03-16 19:42:51,930 INFO  [main] (ScreenshotUtility.java:72) - Inside captureScreenShot() method...
+2018-03-16 19:42:52,280 INFO  [main] (ScreenshotUtility.java:89) - destDir: src/test/java/screenshots/Failures
+2018-03-16 19:42:52,295 INFO  [main] (ScreenshotUtility.java:41) - Inside onTestSuccess() method...
+2018-03-16 19:42:52,295 INFO  [main] (ConfigProperties.java:36) - inside ConfigProperties->getProperty() called for value ScreenShotOnPass
+2018-03-16 19:42:52,295 INFO  [main] (ConfigProperties.java:36) - inside ConfigProperties->getProperty() called for value ScreenShotOnPass
+2018-03-16 19:42:52,295 INFO  [main] (ScreenshotUtility.java:43) - ScreenShotOnPass: Yes
+2018-03-16 19:42:52,296 INFO  [main] (ScreenshotUtility.java:72) - Inside captureScreenShot() method...
+2018-03-16 19:42:52,593 INFO  [main] (ScreenshotUtility.java:89) - destDir: src/test/java/screenshots/Success
