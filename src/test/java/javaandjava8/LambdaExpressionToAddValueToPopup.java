@@ -37,15 +37,13 @@ public class LambdaExpressionToAddValueToPopup {
 
 		Alert al = driver.switchTo().alert();
 
-		MyInterface myInt = (String text) -> {
-			al.sendKeys(text);
-		};
+		MyInterface myInt = (String text) -> { al.sendKeys(text); };
 
 		myInt.enterTextInAlertBox("Text coming from Interface method");
 
 		Thread.sleep(2000);
 
-		 al.accept();
+		al.accept();
 
 	}
 
