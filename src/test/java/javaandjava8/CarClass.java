@@ -97,14 +97,14 @@ public class CarClass {
 		Vehicle c1 = new Car(2010, "Hyundai", "i10");
 		c1.startVehicle();
 		c1.accelerate(); 
-		c1.changeGear(); //Here JVM at runtime identifies which changeGear method to call, its Runtime Polymorphism
+		c1.changeGear(); // Here JVM at runtime identifies which changeGear method to call, its Runtime Polymorphism
 		c1.slowDown();
 		c1.stopVehicle();
 		
 		Car c2 = new Car(2012, "Toyota", "Camry");
 		
 		c2.startVehicle();
-		c2.changeGear(); //Compile Time Plymorphism
+		c2.changeGear(); // Compile Time Plymorphism
 		c2.stopVehicle();
 		
 	}
