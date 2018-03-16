@@ -49,10 +49,10 @@ class Car extends Vehicle {
 		System.out.println(year + "-" + make + "-" + model + " Car Gear has been changed..");
 	}
 
-	@Override
+	/*@Override
 	public void accelerate() {
 		System.out.println(year + "-" + make + "-" + model + " Car has been accelerated..");
-	}
+	}*/
 
 	@Override
 	public void slowDown() {
@@ -94,17 +94,17 @@ class Car extends Vehicle {
 public class CarClass {
 	public static void main(String args[]) {
 
-		Car c1 = new Car(2010, "Hyundai", "i10");
+		Vehicle c1 = new Car(2010, "Hyundai", "i10");
 		c1.startVehicle();
-		c1.accelerate(); // Here JVM at runtime idenfies which accelerate method to call
-		c1.changeGear(); // Runtime Polymorphism
+		c1.accelerate(); 
+		c1.changeGear(); //Here JVM at runtime identifies which changeGear method to call, its Runtime Polymorphism
 		c1.slowDown();
 		c1.stopVehicle();
 		
 		Car c2 = new Car(2012, "Toyota", "Camry");
 		
 		c2.startVehicle();
-		c2.changeGear();
+		c2.changeGear(); //Compile Time Plymorphism
 		c2.stopVehicle();
 		
 	}
